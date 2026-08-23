@@ -1,8 +1,8 @@
-# LLM-Toolkit
+# Hadron
 
 <p align="center">
-  <b>A personal LLM toolbox, built while learning.</b><br>
-  <sub>Prompt engineering · RAG · Fine-tuning · Evaluation · Agents</sub>
+  <b>Personal AI assistant, built from scratch.</b><br>
+  <sub>Transformer from zero · Agent mode · Tools · Memory</sub>
 </p>
 
 <p align="center">
@@ -13,63 +13,52 @@
 
 ---
 
-## What is this?
+## What is Hadron?
 
-LLM-Toolkit is a growing collection of **standalone tools** for working with Large Language Models. Each module is an independent instrument that can be used alone or combined into full pipelines.
+Hadron is a personal AI assistant, built from the ground up. The goal: understand how LLMs work by implementing every component — from attention mechanisms to agent mode.
 
-The goal: build a personal LLM stack from scratch, learning by doing — from prompt optimization to RAG systems and fine-tuning.
-
----
-
-## Modules
-
-| Module | Status | Description |
-|--------|--------|-------------|
-| `01_prompts` | 🚧 Planned | Prompt templates, optimization, evaluation |
-| `02_rag` | 🚧 Planned | Chunking, embeddings, retrieval, full RAG pipeline |
-| `03_providers` | 🚧 Planned | Unified clients for OpenAI, Anthropic, Mistral |
-| `04_finetuning` | 🚧 Planned | LoRA/QLoRA for open-source models |
-| `05_evaluation` | 🚧 Planned | Metrics, A/B testing, Ragas integration |
-| `06_agents` | 🚧 Planned | Tools, memory, orchestration |
-| `07_apps` | 🚧 Planned | Ready-to-use chat bots and document QA |
+Not an API wrapper. A learning journey from mathematics to working assistant.
 
 ---
 
 ## Roadmap
 
+### Phase 1: Foundation
 - [x] Repository structure
-- [ ] Unified LLM client (`03_providers/base.py`)
-- [ ] Prompt templates and evaluation
-- [ ] Basic RAG pipeline
-- [ ] Vector database integration
-- [ ] Fine-tuning with LoRA
-- [ ] Evaluation metrics and A/B testing
-- [ ] Simple chat bot app
+- [ ] Mathematics: matrix operations, softmax, attention
+- [ ] Transformer encoder from scratch
+- [ ] Transformer decoder from scratch
+- [ ] Tokenizer (BPE)
+
+### Phase 2: Core
+- [ ] Small LLM trained on custom data
+- [ ] Text generation
+- [ ] Fine-tuning (LoRA)
+
+### Phase 3: Agent
+- [ ] Tool calling (files, browser, calendar)
+- [ ] Memory (vector database)
+- [ ] Multi-step reasoning
+
+### Phase 4: Hadron
+- [ ] Voice interface (STT + TTS)
+- [ ] Full assistant
+- [ ] Personal deployment
 
 ---
 
-## Installation
+## Structure
 
-```bash
-git clone https://github.com/nsdmlk/LLM-Toolkit.git
-cd LLM-Toolkit
-pip install -r requirements.txt
 ```
-
----
-
-## Quickstart
-
-*Coming soon — first module under development.*
-
----
-
-## Tech Stack
-
-- **LLM providers**: OpenAI, Anthropic, Mistral, Llama
-- **RAG**: LangChain, LlamaIndex, Chroma, FAISS
-- **Evaluation**: Ragas, custom metrics
-- **Fine-tuning**: PEFT, LoRA, QLoRA
+Hadron/
+├── core/          # transformer, attention, tokenizer
+├── agent/         # agent mode, reasoning
+├── tools/         # file system, browser, calendar
+├── memory/        # vector storage, context
+├── voice/         # speech-to-text, text-to-speech
+├── tests/
+└── docs/
+```
 
 ---
 
@@ -88,5 +77,6 @@ MIT © Emelyanov Ilya, 2026
 ---
 
 <p align="center">
-  <sub>Built during the journey from classical ML to LLMs.</sub>
+  <sub>Built from first principles. No shortcuts.</sub>
 </p>
+
