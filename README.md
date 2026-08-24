@@ -28,7 +28,7 @@ Not an API wrapper. A learning journey from mathematics to working assistant.
 - [X] Repository structure
 - [X] Mathematics: matrix operations, softmax, attention
 - [X] Transformer encoder from scratch
-- [ ] Transformer decoder from scratch
+- [X] Transformer decoder from scratch
 - [ ] Tokenizer (BPE)
 
 ### Phase 2: Core
