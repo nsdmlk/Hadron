@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from attention import MultiHeadAttention
-from positional_encoding import PositionalEncoding
+from .attention import MultiHeadAttention
+from .positional_encoding import PositionalEncoding
 
 
 class EncoderLayer(nn.Module):
