@@ -24,23 +24,27 @@ Not an API wrapper. A learning journey from mathematics to working assistant.
 ## Roadmap
 
 ### Phase 1: Foundation
-- [x] Repository structure
-- [ ] Mathematics: matrix operations, softmax, attention
-- [ ] Transformer encoder from scratch
+
+- [X] Repository structure
+- [X] Mathematics: matrix operations, softmax, attention
+- [X] Transformer encoder from scratch
 - [ ] Transformer decoder from scratch
 - [ ] Tokenizer (BPE)
 
 ### Phase 2: Core
+
 - [ ] Small LLM trained on custom data
 - [ ] Text generation
 - [ ] Fine-tuning (LoRA)
 
 ### Phase 3: Agent
+
 - [ ] Tool calling (files, browser, calendar)
 - [ ] Memory (vector database)
 - [ ] Multi-step reasoning
 
 ### Phase 4: Hadron
+
 - [ ] Voice interface (STT + TTS)
 - [ ] Full assistant
 - [ ] Personal deployment
@@ -64,8 +68,8 @@ Hadron/
 
 ## Author
 
-**Emelyanov Ilya**  
-GitHub: [@nsdmlk](https://github.com/nsdmlk)  
+**Emelyanov Ilya**
+GitHub: [@nsdmlk](https://github.com/nsdmlk)
 Telegram: [@KantervilleGhost](https://t.me/KantervilleGhost)
 
 ---
@@ -79,4 +83,3 @@ MIT © Emelyanov Ilya, 2026
 <p align="center">
   <sub>Built from first principles. No shortcuts.</sub>
 </p>
-
