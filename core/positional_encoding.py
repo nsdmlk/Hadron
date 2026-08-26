@@ -22,7 +22,3 @@ class PositionalEncoding(nn.Module):
     def forward(self, x):
         return x + self.pe[:, :x.size(1), :]
     
-pe = PositionalEncoding(d_model=512)
-x = torch.randn(2, 10, 512)
-out = pe(x)
-print(out.shape)  # (2, 10, 512)

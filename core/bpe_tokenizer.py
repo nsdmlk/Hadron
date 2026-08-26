@@ -104,16 +104,3 @@ class BPETokenizer:
         tokens = [self.id_to_token[idx] for idx in token_ids]
         text = ''.join(tokens).replace('</w>', ' ')
         return text.strip()
-
-
-# Тест
-tokenizer = BPETokenizer()
-texts = ["cat cats catnap", "dog dogs"]
-tokenizer.train(texts, num_merges=20)
-
-print(f"Vocab size: {len(tokenizer.vocab)}")
-print(f"Merges: {tokenizer.merges[:5]}")
-
-tokens = tokenizer.encode("cat cats")
-print(f"Tokens: {tokens}")
-print(f"Decoded: {tokenizer.decode(tokens)}")

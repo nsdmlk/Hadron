@@ -29,7 +29,3 @@ class EncoderLayer(nn.Module):
         
         return x
     
-encoder = EncoderLayer(d_model=512, n_heads=8, d_ff=2048)
-x = torch.randn(2, 10, 512)
-out = encoder(x)
-print(out.shape)  # (2, 10, 512)
